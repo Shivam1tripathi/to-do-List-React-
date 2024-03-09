@@ -5,7 +5,6 @@ import Nav from './Component/navbar';
 import Template from './Component/template';
 function App() {
   const [Content,setContent]=useState([]);
-  
   function addList(input){
     if(Content.length<20){
     setContent([...Content,input]);
